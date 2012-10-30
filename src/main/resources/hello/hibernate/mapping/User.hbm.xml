@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+   "-//Hibernate/Hibernate Mapping DTD//EN"
+   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class
+        name="hello.hibernate.beans.User"
+        table="Users" >
+        <id name="userID" column="UserID">
+            <generator class="assigned" />
+        </id>
+
+        <property name="firstName" >
+            <column name="FirstName" />
+        </property>
+
+        <property name="lastName" >
+            <column name="LastName" />
+        </property>
+        
+        <property name="DOB" >
+            <column name="DateOfBirth" />
+        </property>
+        
+        <property name="gender" type="int">
+            <column name="Gender" />
+        </property>
+        
+        <property name="address" >
+            <column name="Address" />
+        </property>
+        
+    </class>
+
+</hibernate-mapping>

@@ -1,7 +1,5 @@
 package hello.hibernate.beans;
 
-import javax.xml.bind.annotation.XmlRootElement;
-
 
 public class Student {
 

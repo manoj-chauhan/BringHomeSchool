@@ -1,7 +1,10 @@
 package hello.hibernate;
 
+import hello.hibernate.beans.Privilege;
+import hello.hibernate.beans.Role;
 import hello.hibernate.beans.Student;
 import hello.hibernate.beans.StudentList;
+import hello.hibernate.beans.User;
 
 import java.util.List;
 
@@ -32,6 +35,11 @@ public class Test {
 		Transaction tx = null;
 		try{
 			tx = session.beginTransaction();
+                        
+                        List<Privilege> users = session.createQuery("FROM Privilege").list();
+                       	System.out.println("The no. of privilege are : "+users.size());
+
+                        
                         List<Student> students = session.createQuery("FROM Student").list();
                         studentList.setStudentList(students);
 

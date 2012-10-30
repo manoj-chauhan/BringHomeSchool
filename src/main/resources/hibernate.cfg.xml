@@ -27,6 +27,9 @@
     <property name="show_sql">true</property>
 
     <!-- Drop and re-create the database schema on startup -->
+    <mapping resource="hello/hibernate/mapping/User.hbm.xml"/>
+    <mapping resource="hello/hibernate/mapping/Role.hbm.xml"/>
+    <mapping resource="hello/hibernate/mapping/Privilege.hbm.xml"/>
     <mapping resource="hello/hibernate/mapping/Student.hbm.xml"/>
     
   </session-factory>
