@@ -1,4 +1,4 @@
-package hello.hibernate.beans;
+package bring.home.school.beans;
 
 
 public class Student {

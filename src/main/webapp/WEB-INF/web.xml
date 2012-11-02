@@ -7,7 +7,7 @@
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>com.techiemanoj</param-value>
+            <param-value>bring.home.school</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>

@@ -1,10 +1,10 @@
 package hello.hibernate;
 
-import hello.hibernate.beans.Privilege;
-import hello.hibernate.beans.Role;
-import hello.hibernate.beans.Student;
-import hello.hibernate.beans.StudentList;
-import hello.hibernate.beans.User;
+import bring.home.school.beans.Privilege;
+import bring.home.school.beans.Role;
+import bring.home.school.beans.Student;
+import bring.home.school.beans.StudentList;
+import bring.home.school.beans.User;
 
 import java.util.List;
 

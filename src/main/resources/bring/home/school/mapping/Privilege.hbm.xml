@@ -4,14 +4,14 @@
    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
     <class
-        name="hello.hibernate.beans.Role"
-        table="Roles" >
-        <id name="roleID" column="RoleID"  type="int">
+        name="bring.home.school.beans.Privilege"
+        table="Privileges" >
+        <id name="privilegeID" column="PrivilegeID"  type="int">
             <generator class="assigned" />
         </id>
 
-        <property name="title" >
-            <column name="Title" />
+        <property name="name" >
+            <column name="Name" />
         </property>
 
         <property name="description" >

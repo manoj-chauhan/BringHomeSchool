@@ -3,10 +3,11 @@
    "-//Hibernate/Hibernate Mapping DTD//EN"
    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
+
     <class
-        name="hello.hibernate.beans.Privilege"
-        table="Privileges" >
-        <id name="privilegeID" column="PrivilegeID"  type="int">
+        name="bring.home.school.beans.Student"
+        table="Student" >
+        <id name="rollNumber" column="ROLL_NO" type="int" >
             <generator class="assigned" />
         </id>
 
@@ -14,10 +15,9 @@
             <column name="Name" />
         </property>
 
-        <property name="description" >
-            <column name="Description" />
+        <property name="surname" >
+            <column name="SURNAME" />
         </property>
-        
     </class>
 
 </hibernate-mapping>

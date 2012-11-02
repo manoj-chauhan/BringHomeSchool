@@ -1,17 +1,15 @@
 
-package com.techiemanoj;
+package bring.home.school;
 
 import hello.hibernate.Test;
-import hello.hibernate.beans.Student;
-import hello.hibernate.beans.StudentList;
+import bring.home.school.beans.Student;
+import bring.home.school.beans.StudentList;
 import java.util.List;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-/** Example resource class hosted at the URI path "/myresource"
- */
 @Path("/students")
 public class MyResource {
     
